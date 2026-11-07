@@ -85,4 +85,3 @@ The Hallmark sets were fixed before fitting the pathway models. Gene lists and d
 This is one selected public cohort with only 24 stable-disease cases and no external test cohort. The observed response proportion is affected by the original study's sampling design. Repeated cross-validation measures internal stability; it cannot show transportability to other hospitals or treatment regimens. The exploratory EMT signal was not significant after the stated four-model comparison and should not be used for patient stratification.
 
 **Primary dataset publication:** Lei et al., 2021, *Journal of the National Cancer Institute*, [PMCID: PMC8023816](https://pmc.ncbi.nlm.nih.gov/articles/PMC8023816/).
-1, Journal of the National Cancer Institute, PMCID: PMC8023816.
