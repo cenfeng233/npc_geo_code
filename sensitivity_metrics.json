@@ -1,0 +1,431 @@
+{
+  "config": {
+    "repeats": 10,
+    "folds": 5,
+    "seed": 20261107,
+    "selected_genes_per_fold": 10,
+    "pca_variance_genes": 500,
+    "pca_components": 5,
+    "logistic_l2_penalty": 0.1,
+    "excluded_samples": [
+      "LA-NPC_78",
+      "LA-NPC_69",
+      "LA-NPC_47"
+    ],
+    "sample_count": 92,
+    "response_count": 69,
+    "nonresponse_count": 23
+  },
+  "ten_gene_metrics_by_repeat": [
+    {
+      "auroc_response": 0.40894770006301195,
+      "auprc_nonresponse": 0.23944434742115767,
+      "balanced_accuracy": 0.49275362318840576,
+      "response_recall": 0.9420289855072463,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.23225846403240522
+    },
+    {
+      "auroc_response": 0.39760554505356016,
+      "auprc_nonresponse": 0.22678746363255367,
+      "balanced_accuracy": 0.47101449275362317,
+      "response_recall": 0.8985507246376812,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.24261833685150927
+    },
+    {
+      "auroc_response": 0.3925645872715816,
+      "auprc_nonresponse": 0.2546367594382499,
+      "balanced_accuracy": 0.4855072463768116,
+      "response_recall": 0.927536231884058,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.24310920521810364
+    },
+    {
+      "auroc_response": 0.5173282923755513,
+      "auprc_nonresponse": 0.28156684079415645,
+      "balanced_accuracy": 0.4927536231884058,
+      "response_recall": 0.855072463768116,
+      "nonresponse_recall": 0.13043478260869565,
+      "brier_score": 0.23123223975127724
+    },
+    {
+      "auroc_response": 0.5110270951480781,
+      "auprc_nonresponse": 0.2914337012459305,
+      "balanced_accuracy": 0.5434782608695652,
+      "response_recall": 0.9130434782608695,
+      "nonresponse_recall": 0.17391304347826086,
+      "brier_score": 0.22389039857295442
+    },
+    {
+      "auroc_response": 0.43730308758664144,
+      "auprc_nonresponse": 0.28671192685887026,
+      "balanced_accuracy": 0.5217391304347826,
+      "response_recall": 0.8695652173913043,
+      "nonresponse_recall": 0.17391304347826086,
+      "brier_score": 0.24110342359974207
+    },
+    {
+      "auroc_response": 0.44864524259609323,
+      "auprc_nonresponse": 0.23555614797152297,
+      "balanced_accuracy": 0.4855072463768116,
+      "response_recall": 0.927536231884058,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.2453245079369518
+    },
+    {
+      "auroc_response": 0.4530560806553245,
+      "auprc_nonresponse": 0.23410148711759,
+      "balanced_accuracy": 0.47101449275362317,
+      "response_recall": 0.8985507246376812,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.23240848198746375
+    },
+    {
+      "auroc_response": 0.38059231253938247,
+      "auprc_nonresponse": 0.2395149289121394,
+      "balanced_accuracy": 0.5507246376811594,
+      "response_recall": 0.927536231884058,
+      "nonresponse_recall": 0.17391304347826086,
+      "brier_score": 0.23696112704225095
+    },
+    {
+      "auroc_response": 0.4612476370510397,
+      "auprc_nonresponse": 0.2343735813935711,
+      "balanced_accuracy": 0.4855072463768116,
+      "response_recall": 0.927536231884058,
+      "nonresponse_recall": 0.043478260869565216,
+      "brier_score": 0.23761089481459705
+    }
+  ],
+  "pca_metrics_by_repeat": [
+    {
+      "auroc_response": 0.46502835538752363,
+      "auprc_nonresponse": 0.25418668967692615,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.19278574038779955
+    },
+    {
+      "auroc_response": 0.5349716446124764,
+      "auprc_nonresponse": 0.27937189909821936,
+      "balanced_accuracy": 0.4927536231884058,
+      "response_recall": 0.9855072463768116,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1938417483057059
+    },
+    {
+      "auroc_response": 0.444234404536862,
+      "auprc_nonresponse": 0.2539665611933003,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1949267373683878
+    },
+    {
+      "auroc_response": 0.5645872715816005,
+      "auprc_nonresponse": 0.298642929519636,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18598392886591988
+    },
+    {
+      "auroc_response": 0.5381222432262129,
+      "auprc_nonresponse": 0.28944160297905214,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1879372366957595
+    },
+    {
+      "auroc_response": 0.465658475110271,
+      "auprc_nonresponse": 0.2800664672676531,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.19315497109893084
+    },
+    {
+      "auroc_response": 0.44612476370510395,
+      "auprc_nonresponse": 0.2266717446346461,
+      "balanced_accuracy": 0.4927536231884058,
+      "response_recall": 0.9855072463768116,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.19954315140263149
+    },
+    {
+      "auroc_response": 0.4751102709514808,
+      "auprc_nonresponse": 0.24251499419690864,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.19390500170938593
+    },
+    {
+      "auroc_response": 0.46817895400126025,
+      "auprc_nonresponse": 0.2524984041529752,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1937983415554015
+    },
+    {
+      "auroc_response": 0.48897290485192185,
+      "auprc_nonresponse": 0.257312036794296,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1929017133195172
+    }
+  ],
+  "prevalence_baseline_metrics_by_repeat": [
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1876656475896008
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1876656475896008
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.1876656475896008
+    },
+    {
+      "auroc_response": 0.47700063011972277,
+      "auprc_nonresponse": 0.2414423740510697,
+      "balanced_accuracy": 0.5,
+      "response_recall": 1.0,
+      "nonresponse_recall": 0.0,
+      "brier_score": 0.18766564758960078
+    }
+  ],
+  "ten_gene_training_auroc_by_fold": [
+    0.9868686868686869,
+    0.9757575757575757,
+    0.9656565656565657,
+    0.9531100478468899,
+    0.9896616541353384,
+    0.9919191919191919,
+    0.9797979797979798,
+    0.9535353535353536,
+    0.9741626794258373,
+    0.9821428571428571,
+    0.9777777777777777,
+    0.98989898989899,
+    0.998989898989899,
+    0.9808612440191388,
+    0.9990601503759399,
+    0.9555555555555556,
+    0.9919191919191919,
+    0.9828282828282828,
+    0.9598086124401913,
+    0.9793233082706767,
+    0.9858585858585859,
+    0.990909090909091,
+    0.9838383838383838,
+    1.0,
+    0.956766917293233,
+    0.9777777777777777,
+    0.9787878787878788,
+    0.9525252525252526,
+    0.9933014354066986,
+    0.9624060150375939,
+    0.9787878787878788,
+    0.9828282828282828,
+    0.9939393939393939,
+    0.9808612440191388,
+    0.9454887218045113,
+    0.9878787878787879,
+    0.9848484848484849,
+    0.9666666666666667,
+    0.9904306220095693,
+    0.9783834586466166,
+    0.9959595959595959,
+    0.9919191919191919,
+    0.9666666666666667,
+    0.9856459330143541,
+    0.9727443609022557,
+    0.9888888888888889,
+    0.9858585858585859,
+    0.9848484848484849,
+    0.970334928229665,
+    0.9821428571428571
+  ],
+  "pca_training_auroc_by_fold": [
+    0.6191919191919192,
+    0.7111111111111111,
+    0.6777777777777778,
+    0.6516746411483254,
+    0.5864661654135338,
+    0.5969696969696969,
+    0.6202020202020202,
+    0.6181818181818182,
+    0.7272727272727273,
+    0.6428571428571429,
+    0.6242424242424243,
+    0.6717171717171717,
+    0.6242424242424243,
+    0.6775119617224881,
+    0.6889097744360902,
+    0.6646464646464646,
+    0.6101010101010101,
+    0.6505050505050505,
+    0.6478468899521531,
+    0.6174812030075187,
+    0.6696969696969697,
+    0.6272727272727273,
+    0.6222222222222222,
+    0.6296650717703349,
+    0.6917293233082706,
+    0.6181818181818182,
+    0.6888888888888889,
+    0.6353535353535353,
+    0.6545454545454545,
+    0.7030075187969925,
+    0.7555555555555555,
+    0.6727272727272727,
+    0.6090909090909091,
+    0.6220095693779905,
+    0.6334586466165414,
+    0.5878787878787879,
+    0.6747474747474748,
+    0.6333333333333333,
+    0.6813397129186602,
+    0.6569548872180451,
+    0.6555555555555556,
+    0.5909090909090909,
+    0.7272727272727273,
+    0.6267942583732058,
+    0.6325187969924813,
+    0.6191919191919192,
+    0.5969696969696969,
+    0.6878787878787879,
+    0.6526315789473685,
+    0.6879699248120301
+  ],
+  "selected_gene_frequency_top_15": [
+    [
+      "LOC283038",
+      27
+    ],
+    [
+      "NUDT14",
+      18
+    ],
+    [
+      "CCDC12",
+      16
+    ],
+    [
+      "C11orf95",
+      15
+    ],
+    [
+      "KRTAP2-1",
+      12
+    ],
+    [
+      "LRRN1",
+      11
+    ],
+    [
+      "ZNF304",
+      9
+    ],
+    [
+      "GCC1",
+      9
+    ],
+    [
+      "ZAR1",
+      9
+    ],
+    [
+      "SLC8A1-AS1",
+      9
+    ],
+    [
+      "ZNF839",
+      8
+    ],
+    [
+      "ZNF250",
+      8
+    ],
+    [
+      "TRIM41",
+      8
+    ],
+    [
+      "C3orf18",
+      7
+    ],
+    [
+      "DDX11L2",
+      7
+    ]
+  ]
+}
